@@ -1,0 +1,99 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Environment & Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# AI / ML Models
+# ==============================
+
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
+*.onnx
+
+# ==============================
+# Dataset Files
+# ==============================
+
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.zip
+
+# ==============================
+# Camera / Uploaded Images
+# ==============================
+
+captured_terrain.jpg
+uploaded_terrain.jpg
+*.tmp
+
+# ==============================
+# Generated Files
+# ==============================
+
+*.html
+*.log
+
+# ==============================
+# Streamlit
+# ==============================
+
+.streamlit/secrets.toml
+
+# ==============================
+# IDEs
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# Testing / Coverage
+# ==============================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Build Files
+# ==============================
+
+build/
+dist/
+*.egg-info/
